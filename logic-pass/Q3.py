@@ -2,7 +2,7 @@ class String:
     def __init__(self):
         pass
 
-    def occurrence(self, s, fs, count):
+    def occurrence(self):
 
         s = input("Enter your sentence: ")
         fs = input("Enter a letter: ")
@@ -16,4 +16,4 @@ class String:
 
 
 s = String()
-s.occurrence("s", "fs", "count")
+s.occurrence()
